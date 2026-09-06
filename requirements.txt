@@ -7,3 +7,4 @@ sentence-transformers==5.1.2
 chromadb==1.5.9
 langchain==0.3.30
 spacy==3.7.5
+pyarrow==21.0.0
