@@ -1,0 +1,248 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the monthly price of the Premium membership tier, and what facility access does it include at the home location?",
+      "true_answer": "The Premium membership costs $69/month and includes access to the gym floor, cardio equipment, and pool/sauna at the home location.",
+      "source_documents": [
+        "membership-tiers-and-pricing.md"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "How many guest passes per month do Premium members and Family plan members each receive?",
+      "true_answer": "Premium members receive 2 guest passes per calendar month, and Family plan members receive 4 guest passes per calendar month, shared across all registered family members on the plan.",
+      "source_documents": [
+        "guest-pass-policy.md"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What discount do members get for choosing an annual billing plan instead of monthly billing?",
+      "true_answer": "Members who select annual billing receive a 15% discount off the total monthly rate, paid upfront.",
+      "source_documents": [
+        "membership-tiers-and-pricing.md"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "How much notice is required to cancel a month-to-month membership, and are partial-month refunds given for mid-cycle cancellations?",
+      "true_answer": "A minimum of 30 days' written notice is required for all cancellations. Titan Fitness does not provide partial-month refunds for cancellations submitted mid-cycle.",
+      "source_documents": [
+        "cancellation-and-freeze-policy.md"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the early termination fee for cancelling an annual plan before the term ends?",
+      "true_answer": "Members on an annual plan who cancel before their term ends are subject to an early termination fee equal to 50% of the remaining months on the contract.",
+      "source_documents": [
+        "cancellation-and-freeze-policy.md"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What are the minimum and maximum durations for freezing a Titan Fitness membership, and what fee applies?",
+      "true_answer": "Members may freeze their membership for a minimum of 1 month and a maximum of 3 consecutive months per calendar year, and a one-time $10 administrative freeze fee applies.",
+      "source_documents": [
+        "cancellation-and-freeze-policy.md"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Under what circumstances can a member on an annual plan get a refund for unused months?",
+      "true_answer": "Annual plan members can get a refund for unused months under three circumstances: relocation more than 25 miles from the nearest Titan Fitness location, a medical exception certified by a licensed physician, or permanent closure of a facility with no comparable location within 15 miles.",
+      "source_documents": [
+        "refund-policy.md"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Is the one-time signup fee refundable, and how much is it for Basic/Premium versus Family memberships?",
+      "true_answer": "The one-time signup fee is non-refundable once a membership has been activated. It is $49 for Basic/Premium and $79 for Family.",
+      "source_documents": [
+        "refund-policy.md"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Within how many days of a disputed charge should a member contact billing support, and how long does Titan Fitness take to resolve validated disputes?",
+      "true_answer": "Members should contact the front desk or billing support within 30 days of the charge, and Titan Fitness will issue a correction or refund within 15 business days if the dispute is validated.",
+      "source_documents": [
+        "refund-policy.md"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Who is eligible for guest passes, and what can a Basic member do instead if they want to bring a visitor?",
+      "true_answer": "Guest passes are available exclusively to Premium and Family members. Basic members are not eligible for guest passes but may purchase a single-visit day pass for $20 at the front desk.",
+      "source_documents": [
+        "guest-pass-policy.md"
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What activities are guests using a guest pass NOT permitted to do at Titan Fitness?",
+      "true_answer": "Guests using a guest pass are not permitted to book or attend group fitness classes, book personal training sessions, or bring a guest of their own.",
+      "source_documents": [
+        "guest-pass-policy.md"
+      ]
+    },
+    {
+      "id": 12,
+      "question": "How many times can the same guest be brought in using guest passes within a 90-day period before they must sign up for their own membership?",
+      "true_answer": "A single guest may not be brought in more than 3 times within a rolling 90-day period; guests exceeding this limit will be asked to sign up for their own membership or purchase a day pass at full price.",
+      "source_documents": [
+        "guest-pass-policy.md"
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the cost to rent a monthly assigned locker, and what happens to a lock left on a day-use locker after closing?",
+      "true_answer": "A monthly assigned locker costs $10/month for Premium and Family plan members. Any lock left on a day-use locker after closing will be cut, and its contents held at the front desk for 14 days.",
+      "source_documents": [
+        "locker-room-and-belongings-policy.md"
+      ]
+    },
+    {
+      "id": 14,
+      "question": "How long are lost and found items held before being donated, and does Titan Fitness ship lost items to members?",
+      "true_answer": "Lost and found items are held for 30 days before being donated to a local charity, and Titan Fitness does not ship lost items to members; they must be picked up in person.",
+      "source_documents": [
+        "locker-room-and-belongings-policy.md"
+      ]
+    },
+    {
+      "id": 15,
+      "question": "During peak hours, what is the time limit for cardio equipment, and when are peak hours defined as occurring?",
+      "true_answer": "During peak hours, a 30-minute time limit applies to cardio equipment when other members are waiting. Peak hours are defined as 6:00–9:00 AM and 5:00–8:00 PM on weekdays.",
+      "source_documents": [
+        "equipment-usage-and-etiquette.md"
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What happens if a member repeatedly fails to re-rack weights despite staff warnings, according to both the equipment etiquette rules and the code of conduct?",
+      "true_answer": "Failure to follow re-racking rules after repeated staff warnings may result in a formal conduct notice. Under the Code of Conduct, repeated failure to follow equipment etiquette after staff warnings is listed as prohibited conduct that may lead to a verbal warning, written warning, temporary suspension, or termination of membership without refund, depending on severity.",
+      "source_documents": [
+        "equipment-usage-and-etiquette.md",
+        "code-of-conduct.md"
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Do Basic members have access to the pool and sauna at locations that offer these facilities?",
+      "true_answer": "No. Basic members do not have pool/sauna access even when visiting a location that offers it, unless they upgrade to Premium. Pool and sauna access is included for Premium and Family members at locations with these facilities.",
+      "source_documents": [
+        "pool-and-sauna-rules.md"
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the maximum recommended sauna session length, and who should consult a physician before using the sauna?",
+      "true_answer": "The maximum recommended sauna session length is 15 minutes per visit. Members with cardiovascular conditions, pregnant members, or those under 16 should consult a physician before sauna use.",
+      "source_documents": [
+        "pool-and-sauna-rules.md"
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the minimum age to hold an individual Titan Fitness membership, and what is required for members aged 16-17?",
+      "true_answer": "Individuals must be at least 16 years old to hold an individual membership. Members aged 16-17 require a parent or legal guardian to co-sign the membership agreement and liability waiver.",
+      "source_documents": [
+        "minors-and-age-restrictions-policy.md"
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Under what condition can a 14-15 year old Family plan member use the gym floor and cardio equipment?",
+      "true_answer": "Members aged 14-15 registered under a Family plan may use the gym floor and cardio equipment only when directly supervised by a parent or guardian who is also a member, and only after completing a mandatory equipment safety orientation with staff.",
+      "source_documents": [
+        "minors-and-age-restrictions-policy.md"
+      ]
+    },
+    {
+      "id": 21,
+      "question": "What age range does the Kids Club childcare service accept, and what is the maximum stay per visit?",
+      "true_answer": "Kids Club accepts children ages 6 months to 10 years, with a maximum stay of 2 hours per visit.",
+      "source_documents": [
+        "minors-and-age-restrictions-policy.md"
+      ]
+    },
+    {
+      "id": 22,
+      "question": "What is the fee for a late cancellation versus a no-show for a group fitness class?",
+      "true_answer": "A late cancellation (within 4 hours of class start) incurs a $10 fee, while a no-show (failing to attend a booked class without cancelling) incurs a $15 fee.",
+      "source_documents": [
+        "group-class-booking-policy.md"
+      ]
+    },
+    {
+      "id": 23,
+      "question": "What background check requirement applies to Titan Fitness trainers, and why is this particularly emphasized in connection with youth programs?",
+      "true_answer": "All trainers and instructors undergo a background check before hire and are re-screened every 3 years. This is described as being consistent with Titan Fitness's commitment to member safety, particularly around youth programs, which are restricted to ages 10-15 and run by certified staff during designated hours.",
+      "source_documents": [
+        "trainer-certification-requirements.md",
+        "minors-and-age-restrictions-policy.md"
+      ]
+    },
+    {
+      "id": 24,
+      "question": "What are the prices per session for the Starter, Standard, and Committed personal training packages?",
+      "true_answer": "The Starter package (4 sessions) costs $220, or $55 per session. The Standard package (8 sessions) costs $400, or $50 per session. The Committed package (16 sessions) costs $720, or $45 per session.",
+      "source_documents": [
+        "personal-training-booking-policy.md"
+      ]
+    },
+    {
+      "id": 25,
+      "question": "What happens if a member no-shows a personal training session, and what happens if a trainer no-shows a session?",
+      "true_answer": "If a member no-shows a personal training session, the session is deducted from the package and a $20 no-show fee is charged to the member's account. If a trainer cancels or fails to show for a scheduled session, the member is offered a free makeup session and the original session is not deducted from their package.",
+      "source_documents": [
+        "personal-training-booking-policy.md"
+      ]
+    },
+    {
+      "id": 26,
+      "question": "What is the first step staff should take during a medical emergency at Titan Fitness, and where is the on-site AED located?",
+      "true_answer": "The nearest staff member calls 911 (or local emergency services) immediately, and the on-site AED is located at the front desk of every location.",
+      "source_documents": [
+        "emergency-procedures.md"
+      ]
+    },
+    {
+      "id": 27,
+      "question": "How long should a member with contagious illness symptoms wait before returning to a Titan Fitness location?",
+      "true_answer": "Members should stay away until symptom-free for at least 24 hours without the use of fever-reducing medication.",
+      "source_documents": [
+        "illness-and-health-policy.md"
+      ]
+    },
+    {
+      "id": 28,
+      "question": "What nationally accredited certifications are accepted for personal trainers at Titan Fitness, and how often must CPR/AED certification be renewed?",
+      "true_answer": "Accepted certifications are NASM, ACE, ACSM, or NSCA. CPR and AED certification must be renewed every 2 years.",
+      "source_documents": [
+        "trainer-certification-requirements.md"
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Which membership tier provides 24/7 facility access, and what does the front desk hours document say is required to use a location outside staffed front desk hours?",
+      "true_answer": "The Premium membership tier includes 24/7 facility access where available. Facility access outside staffed front desk hours requires a Premium or Family membership with 24/7 keycard access enabled.",
+      "source_documents": [
+        "membership-tiers-and-pricing.md",
+        "front-desk-hours-by-location.md"
+      ]
+    },
+    {
+      "id": 30,
+      "question": "If a member cancels a personal training session due to illness, will they be charged the late cancellation fee, and what must they do to avoid it?",
+      "true_answer": "No, members who cancel a personal training session due to illness are exempt from the standard late cancellation fee, provided they notify the front desk or their trainer before the missed session, or within 24 hours after.",
+      "source_documents": [
+        "illness-and-health-policy.md",
+        "personal-training-booking-policy.md"
+      ]
+    }
+  ]
+}

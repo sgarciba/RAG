@@ -9,7 +9,7 @@ from sentence_transformers import SentenceTransformer
 # 1. Document Loading and Chunking
 # =========================
 
-def doc_loading_and_chunking(folder_name):
+def doc_loading_and_chunking(folder_name, chunking_method):
 
     print(f"1. Loading the documents in {folder_name}...")
     corpus_dir = Path(folder_name)
@@ -17,14 +17,7 @@ def doc_loading_and_chunking(folder_name):
     docs = [Path(p).read_text(encoding="utf-8") for p in doc_paths]
     doc_ids = [f"doc_{i+1}" for i in range(len(docs))]
 
-    headers_to_split_on = [
-    ("##", "Header 2"),
-    ]
-
-    splitter = MarkdownHeaderTextSplitter(
-        headers_to_split_on=headers_to_split_on, 
-        strip_headers=False
-    )
+    splitter = chunking_method
     
     print(f"1. Chunking the documents using 'Markdown Header Text Splitter'...")
     chunks = []
@@ -142,10 +135,10 @@ def generate_response(augmented_prompt):
 # 7. Complete RAG Pipeline
 # =========================
 
-def complete_rag_pipeline(query):
+def complete_rag_pipeline(query, chunking_method):
     
     # Step 1: Loading documents & creating chunks
-    chunks = doc_loading_and_chunking("corpus")
+    chunks = doc_loading_and_chunking("corpus", chunking_method)
     # Step 2: Setup the Vector Database
     collection = vector_database_setup(chunks)
     # Step 3: Process the Query
@@ -172,5 +165,9 @@ if __name__ == "__main__":
     for i, query in enumerate(queries, 1):
         print(f"\n\n==================== Query {i} ====================")
         print(f"Query: {query}")
-        response = complete_rag_pipeline(query)
+        chunking_method = MarkdownHeaderTextSplitter(
+            headers_to_split_on=[("##", "Header 2")],
+            strip_headers=False
+        )
+        response = complete_rag_pipeline(query, chunking_method)
         print(f"\nResponse: {response}")
