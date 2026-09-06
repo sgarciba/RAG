@@ -16,6 +16,8 @@ Members on annual plans may request a refund for unused months under the followi
 2. **Medical Exception:** A licensed physician certifies that the member can no longer safely use the facility. A signed doctor's note is required.
 3. **Facility Closure:** If a Titan Fitness location closes permanently and no comparable location exists within 15 miles, remaining months are refunded in full.
 
+Outside of these three circumstances, a member who cancels an annual plan early remains subject to the standard early termination fee described in the Cancellation & Freeze Policy (MEM-002) — currently 50% of the remaining months on the contract — rather than a refund.
+
 Approved refunds are calculated on a prorated basis for the remaining full months on the contract and processed within 10 business days to the original payment method.
 
 ## Signup Fee Refunds

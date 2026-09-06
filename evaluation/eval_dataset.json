@@ -243,6 +243,56 @@
         "illness-and-health-policy.md",
         "personal-training-booking-policy.md"
       ]
+    },
+    {
+      "id": 31,
+      "question": "Is the freeze fee charged for an approved medical freeze, and how quickly should a member expect a decision after submitting the required documentation?",
+      "true_answer": "No, the standard one-time $10 administrative freeze fee is waived for all approved medical freezes. Members should expect a decision within 5 business days of submitting the required documentation.",
+      "source_documents": [
+        "cancellation-and-freeze-policy.md"
+      ]
+    },
+    {
+      "id": 32,
+      "question": "What is available at the front desk for members who forget a towel for the sauna, and what is the maximum recommended sauna session length?",
+      "true_answer": "Clean towels are available at the front desk for members who forget to bring their own, and the maximum recommended sauna session length is 15 minutes per visit.",
+      "source_documents": [
+        "pool-and-sauna-rules.md"
+      ]
+    },
+    {
+      "id": 33,
+      "question": "Who tracks trainer CPR/AED certification compliance at Titan Fitness, and how often must this certification be renewed?",
+      "true_answer": "Compliance is tracked centrally by the corporate safety team rather than individual location managers, and CPR/AED certification must be renewed every 2 years.",
+      "source_documents": [
+        "trainer-certification-requirements.md"
+      ]
+    },
+    {
+      "id": 34,
+      "question": "What must a member do before resuming personal training bookings after two consecutive no-shows, and is this treated as a punitive measure?",
+      "true_answer": "The member must speak with the fitness manager before resuming bookings. This is intended to protect trainer scheduling and is explicitly not a punitive measure against the member.",
+      "source_documents": [
+        "personal-training-booking-policy.md"
+      ]
+    },
+    {
+      "id": 35,
+      "question": "What is the early termination fee for cancelling an annual plan outside of the standard refund exceptions, and which two policy documents both state this fee?",
+      "true_answer": "The early termination fee is 50% of the remaining months on the contract. This fee is stated in both the Cancellation & Freeze Policy and the Refund Policy.",
+      "source_documents": [
+        "cancellation-and-freeze-policy.md",
+        "refund-policy.md"
+      ]
+    },
+    {
+      "id": 36,
+      "question": "What is the difference between the cancellation window to avoid a fee for a group fitness class versus a personal training session?",
+      "true_answer": "For group fitness classes, cancellations must be made at least 4 hours before class start to avoid a fee. For personal training sessions, cancellations must be made at least 24 hours before the session to avoid the session being deducted from the package.",
+      "source_documents": [
+        "group-class-booking-policy.md",
+        "personal-training-booking-policy.md"
+      ]
     }
   ]
 }

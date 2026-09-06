@@ -19,6 +19,8 @@ Pool and sauna access is included for Premium and Family members at locations wh
 
 ## Sauna Rules
 
+The sauna is one of the most popular amenities at locations that offer it, especially during colder months, and Titan Fitness asks members to be mindful of shared space and safety guidelines so that everyone can use it comfortably. Staff periodically check the sauna area during peak hours to confirm the rules below are being followed, and clean towels are available at the front desk for members who forget to bring their own.
+
 - Maximum recommended session length is 15 minutes per visit
 - Members with cardiovascular conditions, pregnant members, or those under 16 should consult a physician before sauna use
 - Shower before and after using the sauna

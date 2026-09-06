@@ -25,7 +25,7 @@ Freeze requests must be submitted at least 5 business days before the next billi
 
 ## Medical Freezes
 
-Members with a documented medical condition preventing them from using the facility may request an extended freeze beyond the standard 3-month limit. A doctor's note is required, and the freeze fee is waived for medical freezes.
+Members with a documented medical condition preventing them from using the facility may request an extended freeze beyond the standard 3-month limit. These requests are reviewed on a case-by-case basis by the location manager in coordination with the billing department, and members should expect a decision within 5 business days of submitting the required documentation. Extended medical freezes may run concurrently with a hold on an existing personal training package, and members with an assigned trainer are encouraged to notify that trainer separately so upcoming sessions can be paused. A doctor's note is required, confirming both the medical condition and an estimated duration of incapacity, and the standard one-time $10 administrative freeze fee is waived for all approved medical freezes, regardless of how far the freeze extends beyond the standard 3-month limit.
 
 ## Reactivating After Cancellation
 

@@ -16,7 +16,7 @@ Group fitness instructors must hold a certification specific to their class form
 
 ## CPR/AED Certification
 
-All trainers and group instructors must maintain current CPR and AED certification at all times, renewed every 2 years. Trainers whose CPR/AED certification lapses are not permitted to lead sessions until renewed and are transitioned to non-training duties in the interim.
+Because Titan Fitness locations often have no on-duty medical staff beyond trained employees, CPR and AED readiness among the training staff is treated as a core safety requirement rather than an optional credential. Every personal trainer and group fitness instructor, regardless of tenure or specialty, falls under this requirement, and compliance is tracked centrally by the corporate safety team rather than left to individual location managers. All trainers and group instructors must maintain current CPR and AED certification at all times, and this certification must be renewed every 2 years without exception. Trainers whose CPR/AED certification lapses are not permitted to lead sessions until renewed and are transitioned to non-training duties in the interim.
 
 ## Continuing Education
 

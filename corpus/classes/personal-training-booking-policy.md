@@ -28,7 +28,7 @@ Sessions can be booked directly with a specific trainer through the app or front
 
 ## Two Consecutive No-Shows
 
-If a member no-shows two consecutive personal training sessions without prior notice, their remaining sessions with that trainer are placed on hold, and the member must speak with the fitness manager before resuming bookings. This is intended to protect trainer scheduling and is not a punitive measure against the member.
+Personal trainers build their daily schedules around confirmed bookings, and repeated no-shows can leave a trainer with unpaid, unusable gaps in their day that are difficult to fill on short notice. To balance member flexibility with fair treatment of trainers, Titan Fitness applies a specific escalation step once a pattern of missed sessions emerges, separate from the standard no-show fee described above. If a member no-shows two consecutive personal training sessions without prior notice, their remaining sessions with that trainer are placed on hold, and the member must speak with the fitness manager before resuming bookings. This is intended to protect trainer scheduling and is not a punitive measure against the member.
 
 ## Trainer Changes
 
