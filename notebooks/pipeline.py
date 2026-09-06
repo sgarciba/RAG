@@ -110,7 +110,7 @@ def vector_search(collection, query_embedding, top_k):
 def context_augmentation(query, search_results):
     
     print("\n5. Including Context to Prompt...")
-    context = search_results[0]
+    context = "\n\n".join(search_results)
     augmented_prompt = f"""
     Based on the following company policies, answer the user's question.
     
