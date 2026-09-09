@@ -4,7 +4,7 @@ A Retrieval-Augmented Generation (RAG) system for answering questions about a fi
 
 ## ⚙️ How It Works
 
-The pipeline (`notebooks/pipeline.py`) runs a query through the following steps:
+The pipeline (`pipeline.py`) runs a query through the following steps:
 
 1. **Document Loading & Chunking** — Loads all `.md` files from the `corpus/` folder (excluding `README.md`) and splits each document into chunks using LangChain's `MarkdownHeaderTextSplitter`, split on `##` headers.
 2. **Vector Database Setup** — Stores the chunks in a Chroma in-memory collection (`titanic-fitness-chunked`).
@@ -32,7 +32,7 @@ OPENAI_API_KEY = "your-api-key-here"
 Run the pipeline from the project root:
 
 ```bash
-python -m notebooks.pipeline
+python pipeline.py
 ```
 
 This runs a set of example queries against the gym policy corpus and prints the generated answers.
@@ -42,7 +42,7 @@ This runs a set of example queries against the gym policy corpus and prints the 
 ```
 RAG/
 ├── corpus/           # Markdown documents (gym policies, by category)
-├── notebooks/        # Pipeline and exploratory scripts
+├── pipeline.py       # RAG pipeline
 ├── credentials.py    # OpenAI API key (not committed)
 └── requirements.txt
 ```

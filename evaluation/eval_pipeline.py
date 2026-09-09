@@ -5,7 +5,7 @@ import pandas as pd
 import chromadb
 from sentence_transformers import SentenceTransformer
 import json
-from notebooks.pipeline import doc_loading_and_chunking, vector_database_setup, query_processing, vector_search
+from pipeline import doc_loading_and_chunking, vector_database_setup, query_processing, vector_search
 from config import CHUNKING_METHODS
 
 

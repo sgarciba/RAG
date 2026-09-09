@@ -11,6 +11,9 @@ from config import CHUNKING_METHODS
 # =========================
 
 def doc_loading_and_chunking(folder_name, chunking_method):
+    """Reads all the markdown documents in a folder and splits each one into smaller chunks.
+    Returns the list of chunks along with the source document each chunk came from.
+    """
 
     print(f"\n1. Loading the documents in {folder_name} and chunking them using {chunking_method}...")
     corpus_dir = Path(folder_name)
@@ -44,6 +47,9 @@ def doc_loading_and_chunking(folder_name, chunking_method):
 # =========================
 
 def vector_database_setup(chunks, chunk_sources, method):
+    """Creates (or reuses) a vector database collection and stores the given chunks in it.
+    Returns the collection so it can be searched later.
+    """
 
     print("\n2. Creating Vector Collection...")
     client = chromadb.Client()
@@ -71,7 +77,10 @@ def vector_database_setup(chunks, chunk_sources, method):
 # =========================
 
 def query_processing(query):
-    
+    """Cleans up a user's question and converts it into a numeric embedding the search engine can use.
+    Returns the embedding model and the embedded query.
+    """
+
     print("\n3. Processing Query...")
     model = SentenceTransformer('all-MiniLM-L6-v2')
 
@@ -88,7 +97,10 @@ def query_processing(query):
 # =========================
 
 def vector_search(collection, query_embedding, top_k):
-    
+    """Searches the vector database for the chunks that are most similar to the query embedding.
+    Returns the top matching chunks and where each one came from.
+    """
+
     print("\n4. Vector Searching...")
     results = collection.query(
         query_embeddings=[query_embedding.tolist()],
@@ -108,7 +120,10 @@ def vector_search(collection, query_embedding, top_k):
 # =========================
 
 def context_augmentation(query, search_results):
-    
+    """Combines the retrieved chunks with the user's question into a single prompt for the model.
+    Returns that ready-to-use prompt text.
+    """
+
     print("\n5. Including Context to Prompt...")
     context = "\n\n".join(search_results)
     augmented_prompt = f"""
@@ -131,7 +146,10 @@ def context_augmentation(query, search_results):
 # =========================
 
 def generate_response(augmented_prompt):
-    
+    """Sends the augmented prompt to the language model and asks it to write an answer.
+    Returns the model's text response.
+    """
+
     print("\n6. Generating Response...")
     client = OpenAI(api_key=OPENAI_API_KEY)
 
@@ -148,6 +166,9 @@ def generate_response(augmented_prompt):
 # =========================
 
 def complete_rag_pipeline(query, method_name):
+    """Runs the full pipeline end-to-end: chunk the docs, search for relevant ones, and generate an answer.
+    Returns the final answer text for the given query.
+    """
 
     chunking_method = CHUNKING_METHODS[method_name]
 

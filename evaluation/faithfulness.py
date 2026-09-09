@@ -3,7 +3,7 @@ import pandas as pd
 from credentials import OPENAI_API_KEY
 from openai import OpenAI
 from config import CHUNKING_METHODS
-from notebooks.pipeline import (
+from pipeline import (
     doc_loading_and_chunking,
     vector_database_setup,
     query_processing,
@@ -16,6 +16,9 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 
 
 def _strip_code_fence(text):
+    """Removes the ```code fence``` markers that sometimes wrap a model's JSON reply.
+    Returns the cleaned text ready to be parsed.
+    """
     text = text.strip()
     if text.startswith("```"):
         text = text.split("\n", 1)[1] if "\n" in text else text
@@ -24,6 +27,9 @@ def _strip_code_fence(text):
 
 
 def decompose_into_claims(answer):
+    """Asks the model to break an answer down into a list of small, individual factual statements.
+    Returns that list so each claim can be checked separately.
+    """
     prompt = f"""Break the following answer into a list of individual, atomic factual claims.
 Return ONLY a JSON array of strings, one claim per element, with no extra commentary.
 
@@ -36,6 +42,9 @@ Answer:
 
 
 def is_claim_supported(claim, context):
+    """Asks the model whether a single claim can be backed up by the given context text.
+    Returns True if the model answers "Yes", otherwise False.
+    """
     prompt = f"""Context:
 {context}
 
@@ -48,6 +57,9 @@ Can this claim be inferred from the context above? Answer with only "Yes" or "No
 
 
 def compute_faithfulness(answer, context):
+    """Breaks an answer into claims and checks how many are actually supported by the context.
+    Returns the fraction of supported claims, e.g. 0.75 means 3 out of 4 claims checked out.
+    """
     claims = decompose_into_claims(answer)
     if not claims:
         return None

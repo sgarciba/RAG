@@ -4,14 +4,16 @@
 from pathlib import Path
 import pandas as pd
 import json
-from evaluation.eval_pipeline import evaluation_pipeline
-
+from evaluation.faithfulness import compute_faithfulness
 
 # ==========================
 # 1. Recall@2
 # ==========================
 
 def compute_recall_at_2(merge_df):
+    """Checks, for each question, whether the correct source document was among the top 2 retrieved results.
+    Returns the average hit rate per chunking method.
+    """
 
     recall_df = (
         merge_df
@@ -36,6 +38,9 @@ def compute_recall_at_2(merge_df):
 # ==========================
 
 def compute_mrr_at_2(merge_df):
+    """Scores how high up the correct document appeared in the top 2 results (1st place scores higher than 2nd).
+    Returns the average of these scores per chunking method.
+    """
 
     merge_df = merge_df.copy()
     merge_df["is_relevant"] = merge_df.apply(
@@ -62,6 +67,9 @@ def compute_mrr_at_2(merge_df):
 # ==========================
 
 def compute_faithfulness(faithfulness_df):
+    """Averages the faithfulness scores (how well answers stick to the source text) across questions.
+    Returns one average score per chunking method.
+    """
     return faithfulness_df.groupby("chunking_method")["faithfulness"].mean()
 
 
